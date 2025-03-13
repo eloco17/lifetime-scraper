@@ -1,4 +1,4 @@
-name: API Test
+name: API Test Fixed
 
 on:
   workflow_dispatch:
@@ -39,18 +39,6 @@ jobs:
               
               console.log(`Testing API URL: ${vercelApiUrl}`);
               
-              // First, try a GET request to see if the endpoint exists
-              console.log("Testing GET request...");
-              const getResponse = await fetch(vercelApiUrl);
-              console.log(`GET response status: ${getResponse.status}`);
-              
-              try {
-                const getText = await getResponse.text();
-                console.log(`GET response body: ${getText.substring(0, 200)}...`);
-              } catch (e) {
-                console.log("Could not read GET response body");
-              }
-              
               // Create sample data
               const sampleData = {
                 month: "MARCH",
@@ -73,8 +61,8 @@ jobs:
                 timestamp: new Date().toISOString(),
               };
               
-              // Try POST request
-              console.log("Testing POST request...");
+              // Try POST request with proper headers
+              console.log("Testing POST request with proper headers...");
               const postResponse = await fetch(vercelApiUrl, {
                 method: "POST",
                 headers: {
@@ -96,13 +84,6 @@ jobs:
               } catch (e) {
                 console.log("Could not read POST response body");
               }
-              
-              // Print URL details for debugging
-              const url = new URL(vercelApiUrl);
-              console.log("URL details:");
-              console.log(`- Protocol: ${url.protocol}`);
-              console.log(`- Hostname: ${url.hostname}`);
-              console.log(`- Path: ${url.pathname}`);
               
               if (postResponse.ok) {
                 console.log("API test completed successfully");
@@ -140,4 +121,6 @@ jobs:
           VERCEL_API_URL: ${{ secrets.VERCEL_API_URL }}
           VERCEL_API_KEY: ${{ secrets.VERCEL_API_KEY }}
         run: node api-test.js
+
+
 
