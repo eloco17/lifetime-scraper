@@ -163,6 +163,9 @@ jobs:
           LIFETIME_USERNAME: ${{ secrets.LIFETIME_USERNAME }}
           LIFETIME_PASSWORD: ${{ secrets.LIFETIME_PASSWORD }}
           VERCEL_API_URL: ${{ secrets.VERCEL_API_URL }}
+        run: node scraper.js
+
+
 
 
 
