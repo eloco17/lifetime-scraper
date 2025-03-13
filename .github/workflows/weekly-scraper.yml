@@ -19,7 +19,31 @@ jobs:
         with:
           node-version: '18'
           
-      # Changed from npm ci to npm install
+      # Create package.json file directly in the workflow
+      - name: Create package.json
+        run: |
+          cat > package.json << 'EOF'
+          {
+            "name": "lifetime-scraper",
+            "version": "1.0.0",
+            "description": "Weekly scraper for Lifetime Pickleball schedule",
+            "main": "scraper.js",
+            "type": "module",
+            "scripts": {
+              "start": "node scraper.js"
+            },
+            "dependencies": {
+              "puppeteer-core": "^21.0.0",
+              "@sparticuz/chromium": "^121.0.0",
+              "dotenv": "^16.0.3",
+              "node-fetch": "^3.3.1"
+            }
+          }
+          EOF
+          
+          # Verify the file was created
+          cat package.json
+          
       - name: Install dependencies
         run: npm install
         
@@ -30,6 +54,7 @@ jobs:
           VERCEL_API_URL: ${{ secrets.VERCEL_API_URL }}
           VERCEL_API_KEY: ${{ secrets.VERCEL_API_KEY }}
         run: node scraper.js
+
 
 
 
