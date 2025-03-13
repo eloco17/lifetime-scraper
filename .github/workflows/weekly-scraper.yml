@@ -19,9 +19,16 @@ jobs:
         with:
           node-version: '18'
           
+      - name: Debug working directory
+        run: |
+          echo "Current working directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
+          
       # Create package.json file directly in the workflow
       - name: Create package.json
         run: |
+          echo "Creating package.json in $(pwd)"
           cat > package.json << 'EOF'
           {
             "name": "lifetime-scraper",
@@ -41,19 +48,123 @@ jobs:
           }
           EOF
           
-          # Verify the file was created
+          echo "Verifying package.json was created:"
+          ls -la
           cat package.json
+          
+      # Create scraper.js file directly in the workflow with explicit path
+      - name: Create scraper.js
+        run: |
+          echo "Creating scraper.js in $(pwd)"
+          cat > "$(pwd)/scraper.js" << 'EOF'
+          // A simplified scraper script
+          console.log("Starting simplified scraper...");
+          console.log(`Current directory: ${process.cwd()}`);
+          console.log(`Server time: ${new Date().toISOString()}`);
+          
+          // Import required modules
+          import fetch from 'node-fetch';
+          
+          async function sendTestData() {
+            try {
+              // Get API URL and key from environment variables
+              const vercelApiUrl = process.env.VERCEL_API_URL;
+              const vercelApiKey = process.env.VERCEL_API_KEY;
+              
+              if (!vercelApiUrl) {
+                throw new Error("Missing Vercel API URL in environment variables");
+              }
+              
+              // Create sample data
+              const sampleData = {
+                month: "MARCH",
+                days: [
+                  {
+                    name: "SUNDAY",
+                    date: 17,
+                    sessions: [
+                      {
+                        id: "sunday-17-1",
+                        startTime: "9:00 AM",
+                        endTime: "10:30 AM",
+                        title: "Pickleball Open Play",
+                        location: "Indoor Courts",
+                      },
+                    ],
+                  },
+                ],
+                _source: "github-actions-test",
+                timestamp: new Date().toISOString(),
+              };
+              
+              // Send to Vercel API
+              console.log(`Sending data to Vercel API: ${vercelApiUrl}`);
+              
+              const apiResponse = await fetch(vercelApiUrl, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  Authorization: `Bearer ${vercelApiKey}`,
+                },
+                body: JSON.stringify({
+                  scheduleData: sampleData,
+                  source: "github-actions-test",
+                  timestamp: new Date().toISOString(),
+                }),
+              });
+              
+              if (!apiResponse.ok) {
+                const errorText = await apiResponse.text();
+                throw new Error(
+                  `Failed to send data to Vercel API: ${apiResponse.status} ${apiResponse.statusText} - ${errorText}`
+                );
+              }
+              
+              const apiResult = await apiResponse.json();
+              console.log("Vercel API response:", apiResult);
+              
+              console.log("Test completed successfully");
+            } catch (error) {
+              console.error("Error in simplified scraper:", error);
+              process.exit(1);
+            }
+          }
+          
+          // Run the function
+          sendTestData()
+            .then(() => {
+              console.log('Scraper completed successfully');
+              process.exit(0);
+            })
+            .catch((error) => {
+              console.error('Scraper failed:', error);
+              process.exit(1);
+            });
+          EOF
+          
+          echo "Verifying scraper.js was created:"
+          ls -la
+          cat scraper.js
+          chmod +x scraper.js
           
       - name: Install dependencies
         run: npm install
         
+      - name: Debug before running script
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
+          echo "Node.js version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+          
       - name: Run scraper
         env:
           LIFETIME_USERNAME: ${{ secrets.LIFETIME_USERNAME }}
           LIFETIME_PASSWORD: ${{ secrets.LIFETIME_PASSWORD }}
           VERCEL_API_URL: ${{ secrets.VERCEL_API_URL }}
-          VERCEL_API_KEY: ${{ secrets.VERCEL_API_KEY }}
-        run: node scraper.js
+
+
 
 
 
