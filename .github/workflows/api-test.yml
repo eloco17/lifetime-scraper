@@ -1,0 +1,143 @@
+name: API Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Debug environment
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Node.js version: $(node --version)"
+          echo "NPM version: $(npm --version)"
+      
+      - name: Create API test script
+        run: |
+          cat > api-test.js << 'EOF'
+          // CommonJS version of the API test
+          const fetch = require('node-fetch');
+          
+          console.log("Starting API test...");
+          console.log(`Server time: ${new Date().toISOString()}`);
+          
+          async function testApi() {
+            try {
+              // Get API URL and key from environment variables
+              const vercelApiUrl = process.env.VERCEL_API_URL;
+              const vercelApiKey = process.env.VERCEL_API_KEY;
+              
+              if (!vercelApiUrl) {
+                throw new Error("Missing VERCEL_API_URL environment variable");
+              }
+              
+              if (!vercelApiKey) {
+                throw new Error("Missing VERCEL_API_KEY environment variable");
+              }
+              
+              console.log(`Testing API URL: ${vercelApiUrl}`);
+              
+              // First, try a GET request to see if the endpoint exists
+              console.log("Testing GET request...");
+              const getResponse = await fetch(vercelApiUrl);
+              console.log(`GET response status: ${getResponse.status}`);
+              
+              try {
+                const getText = await getResponse.text();
+                console.log(`GET response body: ${getText.substring(0, 200)}...`);
+              } catch (e) {
+                console.log("Could not read GET response body");
+              }
+              
+              // Create sample data
+              const sampleData = {
+                month: "MARCH",
+                days: [
+                  {
+                    name: "SUNDAY",
+                    date: 17,
+                    sessions: [
+                      {
+                        id: "sunday-17-1",
+                        startTime: "9:00 AM",
+                        endTime: "10:30 AM",
+                        title: "Pickleball Open Play",
+                        location: "Indoor Courts",
+                      },
+                    ],
+                  },
+                ],
+                _source: "github-actions-api-test",
+                timestamp: new Date().toISOString(),
+              };
+              
+              // Try POST request
+              console.log("Testing POST request...");
+              const postResponse = await fetch(vercelApiUrl, {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                  "Authorization": `Bearer ${vercelApiKey}`,
+                },
+                body: JSON.stringify({
+                  scheduleData: sampleData,
+                  source: "github-actions-api-test",
+                  timestamp: new Date().toISOString(),
+                }),
+              });
+              
+              console.log(`POST response status: ${postResponse.status}`);
+              
+              try {
+                const postText = await postResponse.text();
+                console.log(`POST response body: ${postText}`);
+              } catch (e) {
+                console.log("Could not read POST response body");
+              }
+              
+              // Print URL details for debugging
+              const url = new URL(vercelApiUrl);
+              console.log("URL details:");
+              console.log(`- Protocol: ${url.protocol}`);
+              console.log(`- Hostname: ${url.hostname}`);
+              console.log(`- Path: ${url.pathname}`);
+              
+              if (postResponse.ok) {
+                console.log("API test completed successfully");
+                return true;
+              } else {
+                throw new Error(`POST request failed with status: ${postResponse.status}`);
+              }
+            } catch (error) {
+              console.error("Error in API test:", error);
+              throw error;
+            }
+          }
+          
+          // Run the function
+          testApi()
+            .then(() => {
+              console.log('API test completed successfully');
+              process.exit(0);
+            })
+            .catch((error) => {
+              console.error('API test failed:', error);
+              process.exit(1);
+            });
+          EOF
+          
+          echo "Verifying api-test.js was created:"
+          ls -la
+          cat api-test.js
+      
+      - name: Install dependencies
+        run: npm install node-fetch@2
+      
+      - name: Run API test
+        env:
+          VERCEL_API_URL: ${{ secrets.VERCEL_API_URL }}
+          VERCEL_API_KEY: ${{ secrets.VERCEL_API_KEY }}
+        run: node api-test.js
+
