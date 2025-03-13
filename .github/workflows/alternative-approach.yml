@@ -2,6 +2,13 @@ name: Alternative Approach - Store Data in GitHub
 
 on:
   workflow_dispatch:
+  schedule:
+    # Run every Sunday at 1:00 AM UTC (adjust as needed)
+    - cron: '0 1 * * 0'
+
+# Add permissions block to grant write access
+permissions:
+  contents: write
 
 jobs:
   store:
@@ -11,34 +18,119 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         
-      - name: Create sample data
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          
+      - name: Create simplified scraper
         run: |
-          mkdir -p data
-          cat > data/schedule.json << 'EOF'
-          {
-            "month": "MARCH",
-            "days": [
-              {
-                "name": "SUNDAY",
-                "date": 17,
-                "sessions": [
-                  {
-                    "id": "sunday-17-1",
-                    "startTime": "9:00 AM",
-                    "endTime": "10:30 AM",
-                    "title": "Pickleball Open Play",
-                    "location": "Indoor Courts"
-                  }
-                ]
+          cat > simple-scraper.js << 'EOF'
+          // A simplified scraper that generates sample data
+          // In a real implementation, this would scrape the actual website
+          
+          const fs = require('fs');
+          
+          function generateSampleData() {
+            // Get the current date
+            const now = new Date();
+            
+            // Calculate the date for next Sunday (first day of next week)
+            const nextSunday = new Date(now);
+            const daysUntilNextSunday = now.getDay() === 0 ? 7 : 7 - now.getDay();
+            nextSunday.setDate(now.getDate() + daysUntilNextSunday);
+            
+            // Create an array to store all days of the week
+            const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
+            
+            // Generate days data
+            const days = [];
+            for (let i = 0; i < 7; i++) {
+              const sessionDate = new Date(nextSunday);
+              sessionDate.setDate(nextSunday.getDate() + i);
+              
+              const dayName = weekdays[i];
+              const date = sessionDate.getDate();
+              
+              // Generate 1-3 sessions for each day
+              const sessions = [];
+              const sessionCount = Math.floor(Math.random() * 3) + 1;
+              
+              for (let j = 0; j < sessionCount; j++) {
+                // Generate random start time between 8 AM and 6 PM
+                const startHour = 8 + Math.floor(Math.random() * 10);
+                const startMinute = Math.random() < 0.5 ? 0 : 30;
+                const startPeriod = "AM";
+                
+                // End time is 1.5 hours after start time
+                let endHour = startHour + 1;
+                let endMinute = startMinute + 30;
+                let endPeriod = startPeriod;
+                
+                if (endMinute >= 60) {
+                  endHour += 1;
+                  endMinute -= 60;
+                }
+                
+                if (endHour > 12) {
+                  endHour -= 12;
+                  endPeriod = "PM";
+                }
+                
+                sessions.push({
+                  id: `${dayName.toLowerCase()}-${date}-${j}`,
+                  startTime: `${startHour}:${startMinute === 0 ? '00' : startMinute} ${startPeriod}`,
+                  endTime: `${endHour}:${endMinute === 0 ? '00' : endMinute} ${endPeriod}`,
+                  title: "Pickleball Open Play",
+                  location: "Indoor Courts",
+                  subtitle: `Skill Level: ${Math.random() < 0.5 ? 'All Levels' : '3.5+'}`
+                });
               }
-            ],
-            "_source": "github-actions-alternative",
-            "timestamp": "2025-03-13T19:00:00.000Z"
+              
+              days.push({
+                name: dayName,
+                date: date,
+                highlight: false,
+                sessions: sessions,
+                header: `${dayName} ${date}`
+              });
+            }
+            
+            // Create the schedule data
+            const scheduleData = {
+              month: nextSunday.toLocaleString("default", { month: "long" }).toUpperCase(),
+              days: days,
+              _source: "github-actions-simplified",
+              timestamp: now.toISOString(),
+              _debug: {
+                generatedAt: now.toISOString(),
+                nextSunday: nextSunday.toISOString()
+              }
+            };
+            
+            return scheduleData;
           }
+          
+          // Generate the sample data
+          const scheduleData = generateSampleData();
+          
+          // Create the data directory if it doesn't exist
+          if (!fs.existsSync('./data')) {
+            fs.mkdirSync('./data');
+          }
+          
+          // Write the data to a file
+          fs.writeFileSync('./data/schedule.json', JSON.stringify(scheduleData, null, 2));
+          
+          console.log('Sample data generated and saved to data/schedule.json');
           EOF
           
-          echo "Sample data created:"
-          cat data/schedule.json
+          echo "Verifying simple-scraper.js was created:"
+          ls -la
+          cat simple-scraper.js
+      
+      - name: Run simplified scraper
+        run: node simple-scraper.js
       
       - name: Commit and push data
         run: |
@@ -48,6 +140,5 @@ jobs:
           git add data/schedule.json
           git commit -m "Update schedule data [skip ci]"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
