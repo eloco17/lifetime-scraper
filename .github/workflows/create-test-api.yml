@@ -1,0 +1,79 @@
+name: Create Test API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Create test API script
+        run: |
+          cat > test-api.js << 'EOF'
+          // A simple script to test the API key
+          const fetch = require('node-fetch');
+          
+          async function testApiKey() {
+            try {
+              // Get API key from environment variable
+              const apiKey = process.env.VERCEL_API_KEY;
+              
+              if (!apiKey) {
+                throw new Error("Missing VERCEL_API_KEY environment variable");
+              }
+              
+              console.log(`API Key: ${apiKey.substring(0, 3)}...${apiKey.substring(apiKey.length - 3)}`);
+              console.log(`API Key length: ${apiKey.length}`);
+              
+              // Create a simple test endpoint on GitHub
+              const testUrl = 'https://httpbin.org/post';
+              console.log(`Testing with httpbin.org: ${testUrl}`);
+              
+              // Try POST request with the API key
+              const response = await fetch(testUrl, {
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': `Bearer ${apiKey}`
+                },
+                body: JSON.stringify({
+                  test: 'data',
+                  timestamp: new Date().toISOString()
+                })
+              });
+              
+              console.log(`Status: ${response.status}`);
+              
+              const data = await response.json();
+              console.log('Response headers:', data.headers);
+              console.log('Response body:', data.json);
+              
+              console.log("\nAPI key test completed");
+            } catch (error) {
+              console.error("Error in API key test:", error);
+              throw error;
+            }
+          }
+          
+          testApiKey()
+            .then(() => console.log('Done'))
+            .catch(err => {
+              console.error('Failed:', err);
+              process.exit(1);
+            });
+          EOF
+          
+          echo "Verifying test-api.js was created:"
+          ls -la
+          cat test-api.js
+      
+      - name: Install dependencies
+        run: npm install node-fetch@2
+      
+      - name: Run API key test
+        env:
+          VERCEL_API_KEY: ${{ secrets.VERCEL_API_KEY }}
+        run: node test-api.js
+
+
