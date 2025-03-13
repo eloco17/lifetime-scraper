@@ -30,9 +30,11 @@ jobs:
           VERCEL_API_KEY: ${{ secrets.VERCEL_API_KEY }}
         run: node scraper.js
         
+      # Updated to use v2 instead of v3
       - name: Upload schedule data as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: schedule-data
           path: schedule-data.json
+
 
