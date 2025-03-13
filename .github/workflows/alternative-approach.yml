@@ -1,0 +1,53 @@
+name: Alternative Approach - Store Data in GitHub
+
+on:
+  workflow_dispatch:
+
+jobs:
+  store:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Create sample data
+        run: |
+          mkdir -p data
+          cat > data/schedule.json << 'EOF'
+          {
+            "month": "MARCH",
+            "days": [
+              {
+                "name": "SUNDAY",
+                "date": 17,
+                "sessions": [
+                  {
+                    "id": "sunday-17-1",
+                    "startTime": "9:00 AM",
+                    "endTime": "10:30 AM",
+                    "title": "Pickleball Open Play",
+                    "location": "Indoor Courts"
+                  }
+                ]
+              }
+            ],
+            "_source": "github-actions-alternative",
+            "timestamp": "2025-03-13T19:00:00.000Z"
+          }
+          EOF
+          
+          echo "Sample data created:"
+          cat data/schedule.json
+      
+      - name: Commit and push data
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          
+          git add data/schedule.json
+          git commit -m "Update schedule data [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
