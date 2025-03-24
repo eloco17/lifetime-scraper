@@ -75,8 +75,8 @@ jobs:
               const upcomingSunday = new Date(todayDate)
               const daysUntilSunday = todayDate.getDay() === 0 ? 0 : 7 - todayDate.getDay()
               upcomingSunday.setDate(todayDate.getDate() + daysUntilSunday);
-              const nextSundayDate = new Date(upcomingSunday);
-              nextSundayDate.setDate(upcomingSunday.getDate() + 7);
+              const nextSunday = new Date(upcomingSunday);
+              nextSunday.setDate(upcomingSunday.getDate() + 7);
 
               console.log(`Today: ${todayDate.toDateString()}`);
               console.log(`Upcoming Sunday: ${upcomingSunday.toDateString()}`);
