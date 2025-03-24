@@ -593,11 +593,23 @@ jobs:
         
       - name: Commit and push data
         run: |
+          # git config --global user.name "GitHub Actions Bot"
+          # git config --global user.email "actions@github.com"
+          
+          # git add data/schedule.json
+          # git commit -m "Update schedule data [skip ci]"
+          # git push
+
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           
           git add data/schedule.json
           git commit -m "Update schedule data [skip ci]"
+          
+          # Pull with rebase before pushing
+          git pull --rebase origin main
+          
+          # Now push
           git push
 
 
