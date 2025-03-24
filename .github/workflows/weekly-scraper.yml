@@ -95,7 +95,7 @@ jobs:
                 _debug: {
                   serverTime: todayDate.toISOString(),
                   calculatedNextSunday: nextSunday.toISOString(),
-                  daysUntilNextSunday,
+                  daysUntilSunday,
                 },
               };
 
