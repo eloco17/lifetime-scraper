@@ -39,6 +39,8 @@ jobs:
             const nextSunday = new Date(now);
             const daysUntilNextSunday = now.getDay() === 0 ? 7 : 7 - now.getDay();
             nextSunday.setDate(now.getDate() + daysUntilNextSunday);
+            const nextSunday = new Date(upcomingSunday);
+            nextSunday.setDate(upcomingSunday.getDate() + 7);
             
             // Create an array to store all days of the week
             const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
