@@ -80,7 +80,7 @@ jobs:
 
               console.log(`Today: ${todayDate.toDateString()}`);
               console.log(`Upcoming Sunday: ${upcomingSunday.toDateString()}`);
-              console.log(`Next Sunday: ${nextSundayDate.toDateString()}`);
+              console.log(`Next Sunday: ${nextSunday.toDateString()}`);
 
               //console.log(`Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()}`);
 
