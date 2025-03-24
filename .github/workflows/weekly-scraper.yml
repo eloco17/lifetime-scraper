@@ -70,12 +70,19 @@ jobs:
               }
 
               // Calculate the date for next Sunday (first day of next week)
-              const today = new Date();
-              const nextSunday = new Date(today);
-              const daysUntilNextSunday = today.getDay() === 0 ? 7 : 7 - today.getDay();
-              nextSunday.setDate(today.getDate() + daysUntilNextSunday);
+              const todayDate = new Date()
+              // First get the upcoming Sunday (this week's Sunday)
+              const upcomingSunday = new Date(todayDate)
+              const daysUntilSunday = todayDate.getDay() === 0 ? 0 : 7 - todayDate.getDay()
+              upcomingSunday.setDate(todayDate.getDate() + daysUntilSunday);
+              const nextSundayDate = new Date(upcomingSunday);
+              nextSundayDate.setDate(upcomingSunday.getDate() + 7);
 
-              console.log(`Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()}`);
+              console.log(`Today: ${todayDate.toDateString()}`);
+              console.log(`Upcoming Sunday: ${upcomingSunday.toDateString()}`);
+              console.log(`Next Sunday: ${nextSundayDate.toDateString()}`);
+
+              //console.log(`Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()}`);
 
               // Create an array to store all days of the week
               const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
