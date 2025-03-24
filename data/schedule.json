@@ -1,45 +1,29 @@
 {
-  "month": "APRIL",
+  "month": "MARCH",
   "days": [
     {
       "name": "SUNDAY",
-      "date": 6,
+      "date": 30,
       "highlight": false,
       "sessions": [
         {
-          "id": "sunday-6-0",
-          "startTime": "8:00 AM",
-          "endTime": "9:30 AM",
+          "id": "sunday-30-0",
+          "startTime": "13:30 AM",
+          "endTime": "3:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: All Levels"
-        },
-        {
-          "id": "sunday-6-1",
-          "startTime": "8:00 AM",
-          "endTime": "9:30 AM",
-          "title": "Pickleball Open Play",
-          "location": "Indoor Courts",
-          "subtitle": "Skill Level: 3.5+"
-        },
-        {
-          "id": "sunday-6-2",
-          "startTime": "12:30 AM",
-          "endTime": "2:00 PM",
-          "title": "Pickleball Open Play",
-          "location": "Indoor Courts",
-          "subtitle": "Skill Level: 3.5+"
         }
       ],
-      "header": "SUNDAY 6"
+      "header": "SUNDAY 30"
     },
     {
       "name": "MONDAY",
-      "date": 7,
+      "date": 31,
       "highlight": false,
       "sessions": [
         {
-          "id": "monday-7-0",
+          "id": "monday-31-0",
           "startTime": "17:30 AM",
           "endTime": "7:00 PM",
           "title": "Pickleball Open Play",
@@ -47,157 +31,141 @@
           "subtitle": "Skill Level: 3.5+"
         },
         {
-          "id": "monday-7-1",
-          "startTime": "12:00 AM",
-          "endTime": "1:30 PM",
+          "id": "monday-31-1",
+          "startTime": "10:00 AM",
+          "endTime": "11:30 AM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: 3.5+"
         }
       ],
-      "header": "MONDAY 7"
+      "header": "MONDAY 31"
     },
     {
       "name": "TUESDAY",
-      "date": 8,
+      "date": 1,
       "highlight": false,
       "sessions": [
         {
-          "id": "tuesday-8-0",
-          "startTime": "12:00 AM",
-          "endTime": "1:30 PM",
+          "id": "tuesday-1-0",
+          "startTime": "17:30 AM",
+          "endTime": "7:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: 3.5+"
-        },
+        }
+      ],
+      "header": "TUESDAY 1"
+    },
+    {
+      "name": "WEDNESDAY",
+      "date": 2,
+      "highlight": false,
+      "sessions": [
         {
-          "id": "tuesday-8-1",
-          "startTime": "11:30 AM",
-          "endTime": "1:00 PM",
+          "id": "wednesday-2-0",
+          "startTime": "14:30 AM",
+          "endTime": "4:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: 3.5+"
-        },
+        }
+      ],
+      "header": "WEDNESDAY 2"
+    },
+    {
+      "name": "THURSDAY",
+      "date": 3,
+      "highlight": false,
+      "sessions": [
         {
-          "id": "tuesday-8-2",
+          "id": "thursday-3-0",
           "startTime": "16:00 AM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: 3.5+"
-        }
-      ],
-      "header": "TUESDAY 8"
-    },
-    {
-      "name": "WEDNESDAY",
-      "date": 9,
-      "highlight": false,
-      "sessions": [
+        },
         {
-          "id": "wednesday-9-0",
-          "startTime": "17:00 AM",
-          "endTime": "6:30 PM",
-          "title": "Pickleball Open Play",
-          "location": "Indoor Courts",
-          "subtitle": "Skill Level: 3.5+"
-        }
-      ],
-      "header": "WEDNESDAY 9"
-    },
-    {
-      "name": "THURSDAY",
-      "date": 10,
-      "highlight": false,
-      "sessions": [
-        {
-          "id": "thursday-10-0",
-          "startTime": "12:30 AM",
-          "endTime": "2:00 PM",
+          "id": "thursday-3-1",
+          "startTime": "17:30 AM",
+          "endTime": "7:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: All Levels"
         },
         {
-          "id": "thursday-10-1",
+          "id": "thursday-3-2",
+          "startTime": "16:00 AM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play",
+          "location": "Indoor Courts",
+          "subtitle": "Skill Level: All Levels"
+        }
+      ],
+      "header": "THURSDAY 3"
+    },
+    {
+      "name": "FRIDAY",
+      "date": 4,
+      "highlight": false,
+      "sessions": [
+        {
+          "id": "friday-4-0",
           "startTime": "15:30 AM",
           "endTime": "5:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
-          "subtitle": "Skill Level: 3.5+"
-        },
-        {
-          "id": "thursday-10-2",
-          "startTime": "14:00 AM",
-          "endTime": "3:30 PM",
-          "title": "Pickleball Open Play",
-          "location": "Indoor Courts",
-          "subtitle": "Skill Level: 3.5+"
-        }
-      ],
-      "header": "THURSDAY 10"
-    },
-    {
-      "name": "FRIDAY",
-      "date": 11,
-      "highlight": false,
-      "sessions": [
-        {
-          "id": "friday-11-0",
-          "startTime": "12:00 AM",
-          "endTime": "1:30 PM",
-          "title": "Pickleball Open Play",
-          "location": "Indoor Courts",
           "subtitle": "Skill Level: All Levels"
         },
         {
-          "id": "friday-11-1",
-          "startTime": "9:00 AM",
-          "endTime": "10:30 AM",
+          "id": "friday-4-1",
+          "startTime": "16:30 AM",
+          "endTime": "6:00 PM",
+          "title": "Pickleball Open Play",
+          "location": "Indoor Courts",
+          "subtitle": "Skill Level: 3.5+"
+        },
+        {
+          "id": "friday-4-2",
+          "startTime": "14:30 AM",
+          "endTime": "4:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: All Levels"
         }
       ],
-      "header": "FRIDAY 11"
+      "header": "FRIDAY 4"
     },
     {
       "name": "SATURDAY",
-      "date": 12,
+      "date": 5,
       "highlight": false,
       "sessions": [
         {
-          "id": "saturday-12-0",
-          "startTime": "13:00 AM",
-          "endTime": "2:30 PM",
-          "title": "Pickleball Open Play",
-          "location": "Indoor Courts",
-          "subtitle": "Skill Level: All Levels"
-        },
-        {
-          "id": "saturday-12-1",
+          "id": "saturday-5-0",
           "startTime": "13:30 AM",
           "endTime": "3:00 PM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
-          "subtitle": "Skill Level: 3.5+"
+          "subtitle": "Skill Level: All Levels"
         },
         {
-          "id": "saturday-12-2",
-          "startTime": "9:00 AM",
-          "endTime": "10:30 AM",
+          "id": "saturday-5-1",
+          "startTime": "8:30 AM",
+          "endTime": "10:00 AM",
           "title": "Pickleball Open Play",
           "location": "Indoor Courts",
           "subtitle": "Skill Level: All Levels"
         }
       ],
-      "header": "SATURDAY 12"
+      "header": "SATURDAY 5"
     }
   ],
   "_source": "github-actions-simplified",
-  "timestamp": "2025-03-24T21:52:09.967Z",
+  "timestamp": "2025-03-24T22:12:34.036Z",
   "_debug": {
-    "generatedAt": "2025-03-24T21:52:09.967Z",
-    "nextSunday": "2025-04-06T21:52:09.967Z"
+    "generatedAt": "2025-03-24T22:12:34.036Z",
+    "nextSunday": "2025-03-30T22:12:34.036Z"
   }
 }
