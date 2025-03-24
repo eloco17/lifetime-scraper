@@ -93,7 +93,7 @@ jobs:
                 days: [],
                 _source: "github-actions-scraper",
                 _debug: {
-                  serverTime: today.toISOString(),
+                  serverTime: todayDate.toISOString(),
                   calculatedNextSunday: nextSunday.toISOString(),
                   daysUntilNextSunday,
                 },
