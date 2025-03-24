@@ -35,19 +35,10 @@ jobs:
             // Get the current date
             const now = new Date();
             
-            // First get the upcoming Sunday (this week's Sunday)
-            const upcomingSunday = new Date(now);
-            const daysUntilSunday = now.getDay() === 0 ? 0 : 7 - now.getDay();
-            upcomingSunday.setDate(now.getDate() + daysUntilSunday);
-            
-            // Then add 7 more days to get NEXT week's Sunday
-            const nextSunday = new Date(upcomingSunday);
-            nextSunday.setDate(upcomingSunday.getDate() + 7);
-            
-            console.log(`Today: ${now.toDateString()}`);
-            console.log(`Upcoming Sunday: ${upcomingSunday.toDateString()}`);
-            console.log(`Next Sunday: ${nextSunday.toDateString()}`);
-
+            // Calculate the date for next Sunday (first day of next week)
+            const nextSunday = new Date(now);
+            const daysUntilNextSunday = now.getDay() === 0 ? 7 : 7 - now.getDay();
+            nextSunday.setDate(now.getDate() + daysUntilNextSunday);
             
             // Create an array to store all days of the week
             const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
@@ -149,5 +140,3 @@ jobs:
           git add data/schedule.json
           git commit -m "Update schedule data [skip ci]"
           git push
-
-
