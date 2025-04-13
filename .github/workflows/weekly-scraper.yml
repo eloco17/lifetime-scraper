@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Run every Saturday at 1:00 AM UTC (adjust as needed)
-    - cron: '0 1 * * 6'
+    - cron: '0 1 * * 0'
 
 # Add permissions block to grant write access
 permissions:
