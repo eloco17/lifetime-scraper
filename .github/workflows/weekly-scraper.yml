@@ -3,8 +3,8 @@ name: Full Pickleball Schedule Scraper
 on:
   workflow_dispatch:
   schedule:
-    # Run every Saturday at 1:00 AM UTC (adjust as needed)
-    - cron: '0 1 * * 6'
+    # Run every Sunday at 1:00 AM UTC (adjust as needed)
+    - cron: '0 1 * * 0'
 
 # Add permissions block to grant write access
 permissions:
@@ -611,10 +611,3 @@ jobs:
           
           # Now push
           git push
-
-
-
-
-
-
-
