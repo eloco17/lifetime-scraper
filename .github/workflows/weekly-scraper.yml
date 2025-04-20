@@ -72,8 +72,9 @@ jobs:
               // Calculate the date for next Sunday (first day of next week)
               const today = new Date();
               const nextSunday = new Date(today);
-              const daysUntilNextSunday = today.getDay() === 0 ? 7 : 7 - today.getDay();
-              nextSunday.setDate(today.getDate() + daysUntilNextSunday);
+              const daysUntilNextSunday = 7 - today.getDay();
+              nextSunday.setDate(today.getDate() + daysUntilNextSunday + 7);
+
 
               console.log(`Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()}`);
 
