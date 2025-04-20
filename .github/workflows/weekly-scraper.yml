@@ -52,7 +52,7 @@ jobs:
 
           async function scrapeLifetimeSchedule() {
             console.log("Starting scheduled Lifetime schedule scrape...");
-            console.log("Server time:", new Date().toISOString());
+            console.log("Server time: " + new Date().toISOString());
 
             let browser = null;
 
@@ -69,7 +69,7 @@ jobs:
               const nextSunday = new Date(today);
               nextSunday.setDate(today.getDate() + 7);
 
-              console.log(\`Today is \${today.toDateString()}, next Sunday is \${nextSunday.toDateString()}\`);
+              console.log("Today is " + today.toDateString() + ", next Sunday is " + nextSunday.toDateString());
 
               const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
 
@@ -91,14 +91,14 @@ jobs:
 
                 const dayName = weekdays[i];
                 const date = sessionDate.getDate();
-                const dayKey = \`\${dayName}-\${date}\`;
+                const dayKey = dayName + "-" + date;
 
                 dayMap.set(dayKey, {
                   name: dayName,
                   date: date,
                   highlight: false,
                   sessions: [],
-                  header: \`\${dayName} \${date}\`,
+                  header: dayName + " " + date,
                 });
               }
 
@@ -153,10 +153,10 @@ jobs:
               const year = nextSunday.getFullYear();
               const month = String(nextSunday.getMonth() + 1).padStart(2, "0");
               const day = String(nextSunday.getDate()).padStart(2, "0");
-              const formattedDate = \`\${year}-\${month}-\${day}\`;
+              const formattedDate = year + "-" + month + "-" + day;
 
-              const weekViewUrl = \`https://my.lifetime.life/clubs/ny/penn-1/classes.html?teamMemberView=true&mode=week&selectedDate=\${formattedDate}&interest=Pickleball+Open+Play&location=PENN+1\`;
-              console.log("Navigating to week view:", weekViewUrl);
+              const weekViewUrl = "https://my.lifetime.life/clubs/ny/penn-1/classes.html?teamMemberView=true&mode=week&selectedDate=" + formattedDate + "&interest=Pickleball+Open+Play&location=PENN+1";
+              console.log("Navigating to week view: " + weekViewUrl);
 
               await page.goto(weekViewUrl, {
                 waitUntil: "domcontentloaded",
@@ -166,14 +166,12 @@ jobs:
               await page.waitForSelector(".planner-entry, .planner-row", { visible: true, timeout: 15000 });
               await page.waitForTimeout(3000);
 
-              // Add your evaluation logic here or keep existing from your previous setup...
+              // TODO: Insert page.evaluate() scraping logic here
 
-              // Create the data directory if it doesn't exist
               if (!fs.existsSync('./data')) {
                 await mkdir('./data', { recursive: true });
               }
 
-              // Dummy data for now — replace with your real scheduleData
               fs.writeFileSync('./data/schedule.json', JSON.stringify(scheduleData, null, 2));
               console.log("Saved schedule data to ./data/schedule.json");
             } catch (error) {
