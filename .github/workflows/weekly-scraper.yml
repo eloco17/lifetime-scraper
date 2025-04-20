@@ -1,7 +1,7 @@
 name: Full Pickleball Schedule Scraper
 
 on:
-  workflow_dispatch:
+  workflow_dispatch: 
   schedule:
     # Run every Sunday at 1:00 AM UTC (adjust as needed)
     - cron: '0 1 * * 0'
