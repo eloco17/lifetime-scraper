@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Run every Saturday at 1:00 AM UTC (adjust as needed)
-    - cron: '0 1 * * 6'
+    - cron: '0 1 * * 0'
 
 # Add permissions block to grant write access
 permissions:
@@ -56,7 +56,7 @@ jobs:
 
           async function scrapeLifetimeSchedule() {
             console.log("Starting scheduled Lifetime schedule scrape...");
-            console.log(`Server time: ${new Date().toISOString()}`);
+            console.log(Server time: ${new Date().toISOString()});
 
             let browser = null;
             
@@ -72,11 +72,10 @@ jobs:
               // Calculate the date for next Sunday (first day of next week)
               const today = new Date();
               const nextSunday = new Date(today);
-              const daysUntilNextSunday = 7 - today.getDay();
-              nextSunday.setDate(today.getDate() + daysUntilNextSunday + 7);
+              const daysUntilNextSunday = today.getDay() === 0 ? 7 : 7 - today.getDay();
+              nextSunday.setDate(today.getDate() + daysUntilNextSunday);
 
-
-              console.log(`Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()}`);
+              console.log(Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()});
 
               // Create an array to store all days of the week
               const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
@@ -103,14 +102,14 @@ jobs:
 
                 const dayName = weekdays[i];
                 const date = sessionDate.getDate();
-                const dayKey = `${dayName}-${date}`;
+                const dayKey = ${dayName}-${date};
 
                 dayMap.set(dayKey, {
                   name: dayName,
                   date: date,
                   highlight: false,
                   sessions: [],
-                  header: `${dayName} ${date}`,
+                  header: ${dayName} ${date},
                 });
               }
 
@@ -193,11 +192,11 @@ jobs:
               const year = nextSunday.getFullYear();
               const month = String(nextSunday.getMonth() + 1).padStart(2, "0");
               const day = String(nextSunday.getDate()).padStart(2, "0");
-              const formattedDate = `${year}-${month}-${day}`;
+              const formattedDate = ${year}-${month}-${day};
 
               // Go directly to the week view for next week
-              const weekViewUrl = `https://my.lifetime.life/clubs/ny/penn-1/classes.html?teamMemberView=true&mode=week&selectedDate=${formattedDate}&interest=Pickleball+Open+Play&location=PENN+1`;
-              console.log(`Navigating to week view: ${weekViewUrl}`);
+              const weekViewUrl = https://my.lifetime.life/clubs/ny/penn-1/classes.html?teamMemberView=true&mode=week&selectedDate=${formattedDate}&interest=Pickleball+Open+Play&location=PENN+1;
+              console.log(Navigating to week view: ${weekViewUrl});
 
               await page.goto(weekViewUrl, {
                 waitUntil: "domcontentloaded",
@@ -238,8 +237,8 @@ jobs:
                     if (match) {
                       const [_, startHour, startMin, endHour, endMin, period] = match;
                       return {
-                        startTime: `${startHour}:${startMin} ${period}`,
-                        endTime: `${endHour}:${endMin} ${period}`,
+                        startTime: ${startHour}:${startMin} ${period},
+                        endTime: ${endHour}:${endMin} ${period},
                       };
                     }
 
@@ -248,8 +247,8 @@ jobs:
                     if (match) {
                       const [_, startHour, startMin, endHour, endMin, period] = match;
                       return {
-                        startTime: `${startHour}:${startMin} ${period}`,
-                        endTime: `${endHour}:${endMin} ${period}`,
+                        startTime: ${startHour}:${startMin} ${period},
+                        endTime: ${endHour}:${endMin} ${period},
                       };
                     }
 
@@ -258,8 +257,8 @@ jobs:
                     if (match) {
                       const [_, startHour, startMin, startPeriod, endHour, endMin, endPeriod] = match;
                       return {
-                        startTime: `${startHour}:${startMin} ${startPeriod}`,
-                        endTime: `${endHour}:${endMin} ${endPeriod}`,
+                        startTime: ${startHour}:${startMin} ${startPeriod},
+                        endTime: ${endHour}:${endMin} ${endPeriod},
                       };
                     }
 
@@ -268,8 +267,8 @@ jobs:
                     if (match) {
                       const [_, startHour, startMin, startPeriod, endHour, endMin, endPeriod] = match;
                       return {
-                        startTime: `${startHour}:${startMin} ${startPeriod}`,
-                        endTime: `${endHour}:${endMin} ${endPeriod}`,
+                        startTime: ${startHour}:${startMin} ${startPeriod},
+                        endTime: ${endHour}:${endMin} ${endPeriod},
                       };
                     }
                   }
@@ -294,8 +293,8 @@ jobs:
                     const periods = periodMatches ? periodMatches.map((p) => p.toUpperCase()) : ["AM", "AM"];
 
                     return {
-                      startTime: `${timeMatches[0]} ${periods[0] || "AM"}`,
-                      endTime: `${timeMatches[1]} ${periods[1] || periods[0] || "AM"}`,
+                      startTime: ${timeMatches[0]} ${periods[0] || "AM"},
+                      endTime: ${timeMatches[1]} ${periods[1] || periods[0] || "AM"},
                     };
                   }
 
@@ -346,14 +345,14 @@ jobs:
 
                 // Find ALL entries on the page
                 const allEntries = Array.from(document.querySelectorAll(".planner-entry"));
-                console.log(`Found ${allEntries.length} total entries on the page`);
+                console.log(Found ${allEntries.length} total entries on the page);
 
                 // Find all planner entries that might be pickleball sessions
                 const pickleballEntries = allEntries.filter((entry) => {
                   const text = entry.textContent || "";
                   return text.toLowerCase().includes("pickleball");
                 });
-                console.log(`Found ${pickleballEntries.length} entries containing "pickleball" text`);
+                console.log(Found ${pickleballEntries.length} entries containing "pickleball" text);
 
                 // Array to store sessions by day
                 const sessionsByDay = [[], [], [], [], [], [], []]; // One array for each day of the week
@@ -428,11 +427,11 @@ jobs:
 
                   // Add the session to the appropriate day
                   sessionsByDay[dayIndex].push({
-                    id: `${weekdays[dayIndex].toLowerCase()}-${date}-${index}`,
+                    id: ${weekdays[dayIndex].toLowerCase()}-${date}-${index},
                     startTime,
                     endTime,
                     title,
-                    subtitle: skillLevel ? `Skill Level: ${skillLevel}` : undefined,
+                    subtitle: skillLevel ? Skill Level: ${skillLevel} : undefined,
                     location,
                     status,
                   });
@@ -466,12 +465,12 @@ jobs:
                 
                 const dayName = weekdays[dayIndex];
                 const date = sessionDate.getDate();
-                const dayKey = `${dayName}-${date}`;
+                const dayKey = ${dayName}-${date};
 
                 const day = dayMap.get(dayKey);
                 if (day) {
                   day.sessions = daySessions;
-                  console.log(`Added ${daySessions.length} sessions to ${dayKey}`);
+                  console.log(Added ${daySessions.length} sessions to ${dayKey});
                 }
               });
 
@@ -508,23 +507,23 @@ jobs:
               // If we have days with no sessions, try to create sessions based on a template day
               if (daysWithNoSessions.length > 0) {
                 console.log(
-                  `Found ${daysWithNoSessions.length} days with no sessions, trying to create sessions based on a template day`
+                  Found ${daysWithNoSessions.length} days with no sessions, trying to create sessions based on a template day
                 );
 
                 // Find a day with sessions to use as a template
                 const templateDay = daysArray.find((day) => day.sessions.length > 0);
 
                 if (templateDay) {
-                  console.log(`Using ${templateDay.name} as template with ${templateDay.sessions.length} sessions`);
+                  console.log(Using ${templateDay.name} as template with ${templateDay.sessions.length} sessions);
 
                   // Create sessions for days with no sessions
                   daysWithNoSessions.forEach((day) => {
-                    console.log(`Creating sessions for ${day.name} based on template`);
+                    console.log(Creating sessions for ${day.name} based on template);
 
                     // Copy sessions from template day, adjusting IDs
                     day.sessions = templateDay.sessions.map((session, index) => {
                       const newSession = { ...session };
-                      newSession.id = `${day.name.toLowerCase()}-${day.date}-${index}`;
+                      newSession.id = ${day.name.toLowerCase()}-${day.date}-${index};
 
                       // Adjust title if it contains the day name
                       if (newSession.title.includes(templateDay.name)) {
@@ -533,8 +532,8 @@ jobs:
 
                       // Add a subtle indicator that this is a copied session
                       newSession.subtitle = session.subtitle
-                        ? `${session.subtitle} (Based on ${templateDay.name})`
-                        : `Based on ${templateDay.name}`;
+                        ? ${session.subtitle} (Based on ${templateDay.name})
+                        : Based on ${templateDay.name};
 
                       return newSession;
                     });
@@ -543,10 +542,10 @@ jobs:
               }
 
               console.log(
-                `Extracted data for ${scheduleData.days.length} days with ${scheduleData.days.reduce(
+                Extracted data for ${scheduleData.days.length} days with ${scheduleData.days.reduce(
                   (sum, day) => sum + day.sessions.length,
                   0
-                )} total sessions`
+                )} total sessions
               );
 
               // Create the data directory if it doesn't exist
@@ -557,7 +556,7 @@ jobs:
               // Save the data to a file
               const outputPath = './data/schedule.json';
               fs.writeFileSync(outputPath, JSON.stringify(scheduleData, null, 2));
-              console.log(`Saved schedule data to ${outputPath}`);
+              console.log(Saved schedule data to ${outputPath});
               
               return scheduleData;
             } catch (error) {
@@ -610,5 +609,5 @@ jobs:
           # Pull with rebase before pushing
           git pull --rebase origin main
           
-          # Now push
+          # Now push 
           git push
