@@ -47,33 +47,26 @@ jobs:
         run: |
           cat > scraper.js << 'EOF'
           // Import required modules
+
           import puppeteer from 'puppeteer-core';
           import chromium from '@sparticuz/chromium';
           import fs from 'fs';
           import { mkdir } from 'fs/promises';
-          import { dirname } from 'path';
-          import fetch from 'node-fetch';
+          
           async function scrapeLifetimeSchedule() {
             console.log("Starting scheduled Lifetime schedule scrape...");
             console.log(`Server time: ${new Date().toISOString()}`);
             let browser = null;
-            
+          
             try {
-              // Get credentials from environment variables
-              const username = process.env.LIFETIME_USERNAME;
-              const password = process.env.LIFETIME_PASSWORD;
-              if (!username || !password) {
-                throw new Error("Missing Lifetime credentials in environment variables");
-              }
               // Calculate the date for next Sunday (first day of next week)
               const today = new Date();
               const nextSunday = new Date(today);
               const daysUntilNextSunday = today.getDay() === 0 ? 7 : 7 - today.getDay();
               nextSunday.setDate(today.getDate() + daysUntilNextSunday);
               console.log(`Today is ${today.toDateString()}, next Sunday is ${nextSunday.toDateString()}`);
-              // Create an array to store all days of the week
+          
               const weekdays = ["SUNDAY", "MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY"];
-              // Initialize the schedule data
               const scheduleData = {
                 month: nextSunday.toLocaleString("default", { month: "long" }).toUpperCase(),
                 days: [],
@@ -84,9 +77,8 @@ jobs:
                   daysUntilNextSunday,
                 },
               };
-              // Create a map to store sessions by day
+          
               const dayMap = new Map();
-              // Initialize the day map with all days of the week for next week
               for (let i = 0; i < 7; i++) {
                 const sessionDate = new Date(nextSunday);
                 sessionDate.setDate(nextSunday.getDate() + i);
@@ -101,8 +93,8 @@ jobs:
                   header: `${dayName} ${date}`,
                 });
               }
+          
               console.log("Launching browser...");
-              // Optimized browser configuration for GitHub Actions
               browser = await puppeteer.launch({
                 args: [
                   ...chromium.args,
@@ -123,56 +115,27 @@ jobs:
                 ignoreHTTPSErrors: true,
               });
               console.log("Browser launched successfully");
+          
               const page = await browser.newPage();
-              // Set a realistic user agent
               await page.setUserAgent(
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"
               );
-              // Optimize page for memory usage
               await page.setCacheEnabled(false);
-              
-              // Block unnecessary resources to improve performance
               await page.setRequestInterception(true);
               page.on('request', (req) => {
                 const resourceType = req.resourceType();
-                if (resourceType === 'image' || resourceType === 'font' || resourceType === 'media') {
-                  req.abort();
-                } else {
-                  req.continue();
-                }
+                if (["image", "font", "media"].includes(resourceType)) req.abort();
+                else req.continue();
               });
-              // Navigate to the login page
-              console.log("Navigating to login page...");
-              await page.goto("https://my.lifetime.life/login.html", {
-                waitUntil: "domcontentloaded",
-                timeout: 30000,
-              });
-              console.log("Login page loaded");
-              // Wait for and fill login form
-              console.log("Looking for login form...");
-              // Wait for username field
-              await page.waitForSelector('input[type="email"], #username, input[name="username"]', { timeout: 10000 });
-              // Fill username
-              await page.type('input[type="email"], #username, input[name="username"]', username);
-              console.log("Username filled");
-              // Fill password
-              await page.type('input[type="password"], #password', password);
-              console.log("Password filled");
-              // Click login button
-              console.log("Clicking login button...");
-              await Promise.all([
-                page.waitForNavigation({ waitUntil: "domcontentloaded", timeout: 30000 }),
-                page.click('button[type="submit"], input[type="submit"]'),
-              ]);
-              console.log("Logged in successfully");
-              // Format date for the URL - for next week
+          
               const year = nextSunday.getFullYear();
               const month = String(nextSunday.getMonth() + 1).padStart(2, "0");
               const day = String(nextSunday.getDate()).padStart(2, "0");
               const formattedDate = `${year}-${month}-${day}`;
-              // Go directly to the week view for next week
+          
               const weekViewUrl = `https://my.lifetime.life/clubs/ny/penn-1/classes.html?teamMemberView=true&mode=week&selectedDate=${formattedDate}&interest=Pickleball+Open+Play&location=PENN+1`;
               console.log(`Navigating to week view: ${weekViewUrl}`);
+          
               await page.goto(weekViewUrl, {
                 waitUntil: "domcontentloaded",
                 timeout: 30000,
