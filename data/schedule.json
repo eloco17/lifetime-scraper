@@ -3,11 +3,11 @@
   "days": [
     {
       "name": "SUNDAY",
-      "date": 12,
+      "date": 19,
       "highlight": false,
       "sessions": [
         {
-          "id": "sunday-12-0",
+          "id": "sunday-19-0",
           "startTime": "7:00 AM",
           "endTime": "8:30 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -15,15 +15,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "sunday-12-1",
-          "startTime": "8:00 PM",
-          "endTime": "10:00 PM",
+          "id": "sunday-19-1",
+          "startTime": "8:30 PM",
+          "endTime": "10:30 PM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
           "subtitle": "Skill Level: 3.0-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "sunday-12-2",
+          "id": "sunday-19-2",
           "startTime": "8:30 PM",
           "endTime": "10:30 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -31,7 +31,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "sunday-12-3",
+          "id": "sunday-19-3",
           "startTime": "9:00 PM",
           "endTime": "10:30 PM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -39,15 +39,15 @@
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "SUNDAY 12"
+      "header": "SUNDAY 19"
     },
     {
       "name": "MONDAY",
-      "date": 13,
+      "date": 20,
       "highlight": false,
       "sessions": [
         {
-          "id": "monday-13-4",
+          "id": "monday-20-4",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -55,7 +55,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-5",
+          "id": "monday-20-5",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -63,7 +63,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-6",
+          "id": "monday-20-6",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -71,7 +71,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-7",
+          "id": "monday-20-7",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -79,7 +79,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-8",
+          "id": "monday-20-8",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play : 3.0+ Womens DUPR Optional",
@@ -87,7 +87,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-9",
+          "id": "monday-20-9",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: 3.75-4.25 DUPR Optional",
@@ -95,7 +95,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-10",
+          "id": "monday-20-10",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -103,7 +103,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-11",
+          "id": "monday-20-11",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: Womens NR/2.0+ DUPR Optional",
@@ -111,7 +111,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-12",
+          "id": "monday-20-12",
           "startTime": "10:00 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
@@ -119,7 +119,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-13",
+          "id": "monday-20-13",
           "startTime": "10:00 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -127,7 +127,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-14",
+          "id": "monday-20-14",
           "startTime": "11:30 AM",
           "endTime": "1:00 PM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -135,7 +135,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-15",
+          "id": "monday-20-15",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 3.5-4.25 DUPR Optional",
@@ -143,7 +143,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-16",
+          "id": "monday-20-16",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -151,7 +151,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-17",
+          "id": "monday-20-17",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.25+ DUPR Optional",
@@ -159,7 +159,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-18",
+          "id": "monday-20-18",
           "startTime": "12:00 PM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 3.0-3.5 DUPR Optional",
@@ -167,7 +167,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-19",
+          "id": "monday-20-19",
           "startTime": "12:00 PM",
           "endTime": "2:00 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -175,23 +175,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-20",
-          "startTime": "1:30 PM",
-          "endTime": "3:30 PM",
-          "title": "Pickleball Open Play: 2.75+ DUPR Optional",
-          "subtitle": "Skill Level: 2.75+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "monday-13-21",
-          "startTime": "1:30 PM",
-          "endTime": "3:30 PM",
-          "title": "Pickleball Open Play: 3.5+ (80%+ Reliability Required) DUPR Optional",
-          "subtitle": "Skill Level: 3.5+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "monday-13-22",
+          "id": "monday-20-20",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.5+ DUPR Optional",
@@ -199,7 +183,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-23",
+          "id": "monday-20-21",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -207,7 +191,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-24",
+          "id": "monday-20-22",
           "startTime": "2:00 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.0+ Drill Session: Bring Your Own Partner",
@@ -215,7 +199,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-25",
+          "id": "monday-20-23",
           "startTime": "2:00 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.5+ Drill Session: Bring Your Own Partner",
@@ -223,23 +207,111 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-26",
+          "id": "monday-20-24",
+          "startTime": "2:00 PM",
+          "endTime": "4:00 PM",
+          "title": "Pickleball Open Play: 2.75+ DUPR Optional",
+          "subtitle": "Skill Level: 2.75+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-25",
+          "startTime": "3:00 PM",
+          "endTime": "5:00 PM",
+          "title": "Pickleball Open Play: 4.25+ DUPR Optional",
+          "subtitle": "Skill Level: 4.25+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-26",
           "startTime": "3:30 PM",
-          "endTime": "5:30 PM",
+          "endTime": "5:00 PM",
+          "title": "Pickleball Open Play: 3.0-3.5 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.0-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-27",
+          "startTime": "3:30 PM",
+          "endTime": "5:00 PM",
+          "title": "Pickleball Open Play: 3.5+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.5+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-28",
+          "startTime": "3:30 PM",
+          "endTime": "5:00 PM",
           "title": "Pickleball Open Play: 3.75-4.25 (80%+ Reliability Required) DUPR Optional",
           "subtitle": "Skill Level: 3.75-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-27",
-          "startTime": "9:30 PM",
+          "id": "monday-20-29",
+          "startTime": "3:30 PM",
+          "endTime": "5:00 PM",
+          "title": "Pickleball Open Play: All Levels (4on4off) DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-30",
+          "startTime": "4:00 PM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play: 4.0+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 4.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-31",
+          "startTime": "5:00 PM",
+          "endTime": "6:30 PM",
+          "title": "Pickleball Open Play : 2.75-3.25 DUPR Mandatory",
+          "subtitle": "Skill Level: 2.75-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-32",
+          "startTime": "5:00 PM",
+          "endTime": "6:30 PM",
+          "title": "Pickleball Open Play : 3.25-3.75 DUPR Mandatory",
+          "subtitle": "Skill Level: 3.25-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-33",
+          "startTime": "5:00 PM",
+          "endTime": "6:30 PM",
+          "title": "Pickleball Open Play: 4.0+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 4.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-34",
+          "startTime": "5:00 PM",
+          "endTime": "6:30 PM",
+          "title": "Pickleball Open Play: 5.0+(80+ reliability) DUPR Optional",
+          "subtitle": "Skill Level: 5.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-35",
+          "startTime": "5:00 PM",
+          "endTime": "6:30 PM",
+          "title": "Pickleball Open Play: NR/2.0-2.75 DUPR Optional",
+          "subtitle": "Skill Level: 2.0-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "monday-20-36",
+          "startTime": "10:00 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 3.5+ DUPR Optional",
           "subtitle": "Skill Level: 3.5+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-28",
+          "id": "monday-20-37",
           "startTime": "10:00 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: All Levels (4on4off) DUPR Optional",
@@ -247,7 +319,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-29",
+          "id": "monday-20-38",
           "startTime": "10:30 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 3.0+ DUPR Optional",
@@ -255,7 +327,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "monday-13-30",
+          "id": "monday-20-39",
           "startTime": "10:30 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -263,15 +335,15 @@
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "MONDAY 13"
+      "header": "MONDAY 20"
     },
     {
       "name": "TUESDAY",
-      "date": 14,
+      "date": 21,
       "highlight": false,
       "sessions": [
         {
-          "id": "tuesday-14-31",
+          "id": "tuesday-21-40",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -279,7 +351,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-32",
+          "id": "tuesday-21-41",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -287,7 +359,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-33",
+          "id": "tuesday-21-42",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -295,7 +367,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-34",
+          "id": "tuesday-21-43",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -303,7 +375,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-35",
+          "id": "tuesday-21-44",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play : 3.0+ Womens DUPR Optional",
@@ -311,7 +383,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-36",
+          "id": "tuesday-21-45",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
@@ -319,7 +391,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-37",
+          "id": "tuesday-21-46",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: Womens NR/2.0+ DUPR Optional",
@@ -327,7 +399,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-38",
+          "id": "tuesday-21-47",
           "startTime": "10:00 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -335,7 +407,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-39",
+          "id": "tuesday-21-48",
           "startTime": "10:00 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -343,7 +415,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-40",
+          "id": "tuesday-21-49",
           "startTime": "10:30 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -351,7 +423,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-41",
+          "id": "tuesday-21-50",
           "startTime": "11:30 AM",
           "endTime": "1:00 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -359,7 +431,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-42",
+          "id": "tuesday-21-51",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 3.0-3.5 DUPR Optional",
@@ -367,7 +439,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-43",
+          "id": "tuesday-21-52",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 3.5-4.25 DUPR Optional",
@@ -375,7 +447,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-44",
+          "id": "tuesday-21-53",
           "startTime": "12:00 PM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.75+ Drill/Play",
@@ -383,7 +455,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-45",
+          "id": "tuesday-21-54",
           "startTime": "12:00 PM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: NR/2.0-3.0 DUPR Optional",
@@ -391,7 +463,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-46",
+          "id": "tuesday-21-55",
           "startTime": "12:30 PM",
           "endTime": "2:00 PM",
           "title": "Pickleball Open Play: 5.0+ Drill Session: Bring your own partner",
@@ -399,23 +471,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-47",
-          "startTime": "1:00 PM",
-          "endTime": "2:30 PM",
-          "title": "Pickleball Open Play: 4.25+ Drill Session: Bring your own partner",
-          "subtitle": "Skill Level: 4.25+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "tuesday-14-48",
-          "startTime": "1:30 PM",
-          "endTime": "3:00 PM",
-          "title": "Pickleball Open Play : All Levels Drill Session: Bring Your Own Partner",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "tuesday-14-49",
+          "id": "tuesday-21-56",
           "startTime": "1:30 PM",
           "endTime": "3:00 PM",
           "title": "Pickleball Open Play: 2.75+ DUPR Optional",
@@ -423,7 +479,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-50",
+          "id": "tuesday-21-57",
+          "startTime": "1:30 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play : 3.75+ DUPR Optional",
+          "subtitle": "Skill Level: 3.75+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "tuesday-21-58",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -431,7 +495,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-51",
+          "id": "tuesday-21-59",
           "startTime": "2:30 PM",
           "endTime": "4:30 PM",
           "title": "Pickleball Open Play: 3.5-4.0 DUPR Optional",
@@ -439,7 +503,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-52",
+          "id": "tuesday-21-60",
+          "startTime": "3:00 PM",
+          "endTime": "5:00 PM",
+          "title": "Pickleball Open Play : 4.25+ DUPR Optional",
+          "subtitle": "Skill Level: 4.25+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "tuesday-21-61",
           "startTime": "3:00 PM",
           "endTime": "5:00 PM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
@@ -447,7 +519,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-53",
+          "id": "tuesday-21-62",
           "startTime": "3:30 PM",
           "endTime": "5:00 PM",
           "title": "Pickleball Open Play: 4.5+ Drill Session. Bring your own Partner",
@@ -455,7 +527,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-54",
+          "id": "tuesday-21-63",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play : 3.75-4.25 (80% Reliability Required) DUPR Optional",
@@ -463,7 +535,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-55",
+          "id": "tuesday-21-64",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -471,7 +543,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-56",
+          "id": "tuesday-21-65",
           "startTime": "4:30 PM",
           "endTime": "6:30 PM",
           "title": "Pickleball Open Play: 4.0-4.5 (80% Reliability Required) DUPR Optional",
@@ -479,7 +551,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-57",
+          "id": "tuesday-21-66",
           "startTime": "5:00 PM",
           "endTime": "6:30 PM",
           "title": "Pickleball Open Play: 3.0-3.5 DUPR Optional",
@@ -487,7 +559,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-58",
+          "id": "tuesday-21-67",
           "startTime": "5:00 PM",
           "endTime": "7:00 PM",
           "title": "Pickleball Open Play: 4.5+ (80% Reliability Required) DUPR Optional",
@@ -495,7 +567,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-59",
+          "id": "tuesday-21-68",
           "startTime": "5:30 PM",
           "endTime": "7:00 PM",
           "title": "Pickleball Open Play : 3.25-3.75 DUPR Mandatory: Club Submit",
@@ -503,7 +575,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-60",
+          "id": "tuesday-21-69",
           "startTime": "5:30 PM",
           "endTime": "7:30 PM",
           "title": "Pickleball Open Play: 3.75+(80% Reliability)  DUPR Optional",
@@ -511,7 +583,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-61",
+          "id": "tuesday-21-70",
           "startTime": "6:30 PM",
           "endTime": "8:00 PM",
           "title": "Pickleball Open Play: NR/2.0-2.75 DUPR Mandatory: Club Submit",
@@ -519,7 +591,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-62",
+          "id": "tuesday-21-71",
           "startTime": "7:00 PM",
           "endTime": "8:30 PM",
           "title": "Pickleball Open Play: 3.5-4.0 DUPR Mandatory: Club Submit",
@@ -527,7 +599,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-63",
+          "id": "tuesday-21-72",
           "startTime": "7:00 PM",
           "endTime": "9:00 PM",
           "title": "Pickleball Open Play: 5.0+ DUPR Optional",
@@ -535,7 +607,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-64",
+          "id": "tuesday-21-73",
           "startTime": "7:30 PM",
           "endTime": "9:30 PM",
           "title": "Pickleball Open Play: 4.75+ (80% Reliability Required) DUPR Optional",
@@ -543,7 +615,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-65",
+          "id": "tuesday-21-74",
           "startTime": "8:00 PM",
           "endTime": "10:00 PM",
           "title": "Pickleball Open Play: 2.75-3.25 DUPR Mandatory: Club Submit",
@@ -551,7 +623,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-66",
+          "id": "tuesday-21-75",
           "startTime": "8:30 PM",
           "endTime": "10:00 PM",
           "title": "Pickleball Open Play: 4.0-4.5 DUPR Mandatory",
@@ -559,7 +631,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-67",
+          "id": "tuesday-21-76",
           "startTime": "8:30 PM",
           "endTime": "10:30 PM",
           "title": "Pickleball Open Play: 4.25+ (80% Reliability Required) DUPR Optional",
@@ -567,7 +639,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-68",
+          "id": "tuesday-21-77",
           "startTime": "9:30 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: All Levels (4on/4off) DUPR Optional",
@@ -575,7 +647,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-69",
+          "id": "tuesday-21-78",
           "startTime": "10:00 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 2.5-3.5 DUPR Optional",
@@ -583,7 +655,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-70",
+          "id": "tuesday-21-79",
           "startTime": "10:00 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -591,7 +663,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "tuesday-14-71",
+          "id": "tuesday-21-80",
           "startTime": "10:00 PM",
           "endTime": "11:59 PM",
           "title": "Pickleball Open Play: 3.0+ DUPR Optional",
@@ -599,15 +671,15 @@
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "TUESDAY 14"
+      "header": "TUESDAY 21"
     },
     {
       "name": "WEDNESDAY",
-      "date": 15,
+      "date": 22,
       "highlight": false,
       "sessions": [
         {
-          "id": "wednesday-15-72",
+          "id": "wednesday-22-81",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: 3.0+ DUPR Optional",
@@ -615,7 +687,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-73",
+          "id": "wednesday-22-82",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -623,7 +695,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-74",
+          "id": "wednesday-22-83",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -631,7 +703,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-75",
+          "id": "wednesday-22-84",
           "startTime": "7:00 AM",
           "endTime": "9:00 AM",
           "title": "Pickleball Open Play: Womens 3.75+ DUPR Optional",
@@ -639,7 +711,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-76",
+          "id": "wednesday-22-85",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -647,7 +719,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-77",
+          "id": "wednesday-22-86",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -655,7 +727,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-78",
+          "id": "wednesday-22-87",
           "startTime": "9:00 AM",
           "endTime": "10:30 AM",
           "title": "Pickleball Open Play: 4.25+ Drill Session: Bring Your Own Partner",
@@ -663,7 +735,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-79",
+          "id": "wednesday-22-88",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play : Womens All Levels DUPR Optional",
@@ -671,7 +743,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-80",
+          "id": "wednesday-22-89",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: 3.75-4.25 DUPR Optional",
@@ -679,7 +751,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-81",
+          "id": "wednesday-22-90",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: Womens 3.0+ DUPR Optional",
@@ -687,7 +759,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-82",
+          "id": "wednesday-22-91",
           "startTime": "10:00 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
@@ -695,7 +767,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-83",
+          "id": "wednesday-22-92",
           "startTime": "10:30 AM",
           "endTime": "12:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -703,7 +775,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-84",
+          "id": "wednesday-22-93",
           "startTime": "10:30 AM",
           "endTime": "12:30 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -711,7 +783,23 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-85",
+          "id": "wednesday-22-94",
+          "startTime": "11:30 AM",
+          "endTime": "1:30 PM",
+          "title": "Pickleball Open Play : 3.25+ DUPR Optional",
+          "subtitle": "Skill Level: 3.25+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-95",
+          "startTime": "11:30 AM",
+          "endTime": "1:30 PM",
+          "title": "Pickleball Open Play: All Levels DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-96",
           "startTime": "12:00 PM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.75+ Drill/Play",
@@ -719,31 +807,23 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-86",
-          "startTime": "12:00 PM",
+          "id": "wednesday-22-97",
+          "startTime": "12:30 PM",
           "endTime": "2:00 PM",
-          "title": "Pickleball Open Play : 4.0+ DUPR Optional",
-          "subtitle": "Skill Level: 4.0+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-87",
-          "startTime": "12:00 PM",
-          "endTime": "2:00 PM",
-          "title": "Pickleball Open Play: All Levels DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-88",
-          "startTime": "1:30 PM",
-          "endTime": "3:00 PM",
           "title": "Pickleball Open Play: 3.5+ Drill Session. Please bring a partner",
           "subtitle": "Skill Level: 3.5+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-89",
+          "id": "wednesday-22-98",
+          "startTime": "1:30 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play: 3.0+ DUPR Optional",
+          "subtitle": "Skill Level: 3.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-99",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 3.25+ DUPR Optional",
@@ -751,7 +831,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-90",
+          "id": "wednesday-22-100",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.25+ DUPR Optional",
@@ -759,151 +839,63 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-91",
+          "id": "wednesday-22-101",
           "startTime": "2:00 PM",
           "endTime": "4:00 PM",
-          "title": "Pickleball Open Play: 3.0+ DUPR Optional",
-          "subtitle": "Skill Level: 3.0+",
+          "title": "Pickleball Open Play: 4.75+ DUPR Optional",
+          "subtitle": "Skill Level: 4.75+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-92",
-          "startTime": "3:00 PM",
-          "endTime": "4:30 PM",
-          "title": "Pickleball Open Play: 4.25+ DUPR Optional",
-          "subtitle": "Skill Level: 4.25+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-93",
-          "startTime": "3:00 PM",
-          "endTime": "5:00 PM",
+          "id": "wednesday-22-102",
+          "startTime": "2:00 PM",
+          "endTime": "4:00 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional (4on/4off)",
           "subtitle": "Skill Level: All Levels",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-94",
+          "id": "wednesday-22-103",
           "startTime": "3:30 PM",
-          "endTime": "5:00 PM",
+          "endTime": "5:30 PM",
           "title": "Pickleball Open Play : 4.25-4.75 DUPR Optional",
           "subtitle": "Skill Level: 4.25-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-95",
-          "startTime": "4:00 PM",
-          "endTime": "6:00 PM",
-          "title": "Pickleball Open Play : 3.0+ DUPR Optional",
-          "subtitle": "Skill Level: 3.0+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-96",
-          "startTime": "4:00 PM",
-          "endTime": "6:00 PM",
-          "title": "Pickleball Open Play : 3.75-4.25 (80+ Reliability Required)",
-          "subtitle": "Skill Level: 3.75-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-97",
-          "startTime": "4:00 PM",
-          "endTime": "6:00 PM",
+          "id": "wednesday-22-104",
+          "startTime": "3:30 PM",
+          "endTime": "5:30 PM",
           "title": "Pickleball Open Play: 3.5-4.0 (80%+ Reliability Required) DUPR Optional",
           "subtitle": "Skill Level: 3.5-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-98",
-          "startTime": "4:30 PM",
-          "endTime": "6:30 PM",
-          "title": "Pickleball Open Play: All Levels DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-99",
-          "startTime": "5:00 PM",
-          "endTime": "6:30 PM",
-          "title": "Pickleball Open Play : 2.75-3.25 DUPR Optional",
-          "subtitle": "Skill Level: 2.75-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-100",
-          "startTime": "5:30 PM",
-          "endTime": "7:30 PM",
-          "title": "Pickleball Open Play: 4.25+ (80%+ Reliability Required) DUPR Optional",
-          "subtitle": "Skill Level: 4.25+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-101",
-          "startTime": "6:00 PM",
-          "endTime": "7:30 PM",
-          "title": "Pickleball Open Play : 3.0-3.5 DUPR Optional",
-          "subtitle": "Skill Level: 3.0-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-102",
-          "startTime": "6:00 PM",
-          "endTime": "8:00 PM",
-          "title": "Pickleball Open Play : 4.5+ DUPR Optional",
-          "subtitle": "Skill Level: 4.5+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-103",
-          "startTime": "6:00 PM",
-          "endTime": "8:00 PM",
-          "title": "Pickleball Open Play : NR/2.0-2.75 DUPR Mandatory",
-          "subtitle": "Skill Level: 2.0-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-104",
-          "startTime": "6:30 PM",
-          "endTime": "8:30 PM",
-          "title": "Pickleball Open Play : 4.0+ DUPR Optional",
-          "subtitle": "Skill Level: 4.0+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-105",
-          "startTime": "7:30 PM",
-          "endTime": "9:30 PM",
-          "title": "Pickleball Open Play : 3.5+ DUPR Optional",
-          "subtitle": "Skill Level: 3.5+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-106",
-          "startTime": "7:30 PM",
-          "endTime": "9:30 PM",
-          "title": "Pickleball Open Play : 4.75+ (80%+ Reliability Required) DUPR Optional",
-          "subtitle": "Skill Level: 4.75+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-107",
-          "startTime": "8:00 PM",
-          "endTime": "9:30 PM",
+          "id": "wednesday-22-105",
+          "startTime": "4:00 PM",
+          "endTime": "5:30 PM",
           "title": "Pickleball Open Play : 2.5-3.0 DUPR Optional",
           "subtitle": "Skill Level: 2.5-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-108",
-          "startTime": "8:00 PM",
-          "endTime": "10:00 PM",
-          "title": "Pickleball Open Play : All Levels DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
+          "id": "wednesday-22-106",
+          "startTime": "4:00 PM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play : 3.0+ DUPR Optional",
+          "subtitle": "Skill Level: 3.0+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-109",
+          "id": "wednesday-22-107",
+          "startTime": "4:00 PM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play : 3.75-4.25 (80+ Reliability Required)",
+          "subtitle": "Skill Level: 3.75-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-108",
           "startTime": "8:30 PM",
           "endTime": "10:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -911,55 +903,55 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-110",
-          "startTime": "9:30 PM",
-          "endTime": "11:30 PM",
-          "title": "Pickleball Open Play : 3.75+ DUPR Optional",
-          "subtitle": "Skill Level: 3.75+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-111",
-          "startTime": "9:30 PM",
-          "endTime": "11:30 PM",
-          "title": "Pickleball Open Play : All Levels DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-112",
-          "startTime": "9:30 PM",
-          "endTime": "11:30 PM",
-          "title": "Pickleball Open Play: 3.25-3.75 DUPR Optional",
-          "subtitle": "Skill Level: 3.25-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "wednesday-15-113",
-          "startTime": "9:30 PM",
-          "endTime": "11:30 PM",
+          "id": "wednesday-22-109",
+          "startTime": "8:30 PM",
+          "endTime": "10:30 PM",
           "title": "Pickleball Open Play: 4.5+ DUPR Optional",
           "subtitle": "Skill Level: 4.5+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "wednesday-15-114",
+          "id": "wednesday-22-110",
+          "startTime": "9:00 PM",
+          "endTime": "11:00 PM",
+          "title": "Pickleball Open Play : 3.75+ DUPR Optional",
+          "subtitle": "Skill Level: 3.75+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-111",
+          "startTime": "9:00 PM",
+          "endTime": "11:00 PM",
+          "title": "Pickleball Open Play : All Levels DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-112",
+          "startTime": "9:00 PM",
+          "endTime": "11:00 PM",
+          "title": "Pickleball Open Play: 3.25+ DUPR Optional",
+          "subtitle": "Skill Level: 3.25+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "wednesday-22-113",
           "startTime": "10:00 PM",
           "endTime": "11:30 PM",
-          "title": "Pickleball Open Play: 3.0-3.5 (80%+ Reliability Required) DUPR Optional",
-          "subtitle": "Skill Level: 3.0-",
+          "title": "Pickleball Open Play: 3.0+ DUPR Optional",
+          "subtitle": "Skill Level: 3.0+",
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "WEDNESDAY 15"
+      "header": "WEDNESDAY 22"
     },
     {
       "name": "THURSDAY",
-      "date": 16,
+      "date": 23,
       "highlight": false,
       "sessions": [
         {
-          "id": "thursday-16-115",
+          "id": "thursday-23-114",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -967,7 +959,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-116",
+          "id": "thursday-23-115",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -975,7 +967,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-117",
+          "id": "thursday-23-116",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -983,7 +975,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-118",
+          "id": "thursday-23-117",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -991,7 +983,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-119",
+          "id": "thursday-23-118",
           "startTime": "8:00 AM",
           "endTime": "10:00 AM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -999,7 +991,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-120",
+          "id": "thursday-23-119",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play : Womens 3.0+ DUPR Optional",
@@ -1007,7 +999,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-121",
+          "id": "thursday-23-120",
           "startTime": "9:30 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -1015,7 +1007,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-122",
+          "id": "thursday-23-121",
           "startTime": "10:00 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
@@ -1023,7 +1015,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-123",
+          "id": "thursday-23-122",
           "startTime": "10:00 AM",
           "endTime": "12:00 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -1031,7 +1023,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-124",
+          "id": "thursday-23-123",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.25+ DUPR Optional",
@@ -1039,7 +1031,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-125",
+          "id": "thursday-23-124",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.5+ DUPR Optional",
@@ -1047,7 +1039,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-126",
+          "id": "thursday-23-125",
           "startTime": "12:00 PM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -1055,7 +1047,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-127",
+          "id": "thursday-23-126",
           "startTime": "12:00 PM",
           "endTime": "2:00 PM",
           "title": "Pickleball Open Play: 3.0+ DUPR Optional",
@@ -1063,7 +1055,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-128",
+          "id": "thursday-23-127",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 3.25+ DUPR Optional",
@@ -1071,7 +1063,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-129",
+          "id": "thursday-23-128",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.75+ Drill BYOP",
@@ -1079,7 +1071,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-130",
+          "id": "thursday-23-129",
           "startTime": "2:00 PM",
           "endTime": "4:00 PM",
           "title": "Pickleball Open Play: 2.75+ DUPR Optional",
@@ -1087,7 +1079,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-131",
+          "id": "thursday-23-130",
           "startTime": "2:00 PM",
           "endTime": "4:00 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -1095,7 +1087,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-132",
+          "id": "thursday-23-131",
           "startTime": "2:30 PM",
           "endTime": "4:00 PM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -1103,7 +1095,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-133",
+          "id": "thursday-23-132",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play : 4.5+ DUPR Optional",
@@ -1111,7 +1103,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-134",
+          "id": "thursday-23-133",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play: 3.0-3.75 DUPR Optional",
@@ -1119,15 +1111,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-135",
-          "startTime": "3:30 PM",
-          "endTime": "5:30 PM",
-          "title": "Pickleball Open Play: 3.75-4.25 (80%+ Reliability Required) DUPR Optional",
-          "subtitle": "Skill Level: 3.75-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "thursday-16-136",
+          "id": "thursday-23-134",
           "startTime": "4:00 PM",
           "endTime": "6:00 PM",
           "title": "Pickleball Open Play : All Levels (4on/4off) DUPR Optional",
@@ -1135,7 +1119,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-137",
+          "id": "thursday-23-135",
+          "startTime": "4:00 PM",
+          "endTime": "6:00 PM",
+          "title": "Pickleball Open Play: 3.75+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.75+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "thursday-23-136",
           "startTime": "4:00 PM",
           "endTime": "6:00 PM",
           "title": "Pickleball Open Play: 4.25+ DUPR Optional (80%+ Reliability Required)",
@@ -1143,31 +1135,23 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-138",
-          "startTime": "5:30 PM",
-          "endTime": "7:00 PM",
-          "title": "Pickleball Open Play : All Levels- DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "thursday-16-139",
-          "startTime": "5:30 PM",
+          "id": "thursday-23-137",
+          "startTime": "6:00 PM",
           "endTime": "7:30 PM",
-          "title": "Pickleball Open Play : 3.5+ DUPR Optional",
+          "title": "Pickleball Open Play : 3.5+ (80% Reliability) DUPR OPTIONAL",
           "subtitle": "Skill Level: 3.5+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-140",
+          "id": "thursday-23-138",
           "startTime": "6:00 PM",
           "endTime": "8:00 PM",
-          "title": "Pickleball Open Play : NR/2.0-3.0 DUPR Mandatory",
+          "title": "Pickleball Open Play : NR/2.0-2.75 DUPR Optional",
           "subtitle": "Skill Level: 2.0-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-141",
+          "id": "thursday-23-139",
           "startTime": "6:00 PM",
           "endTime": "8:00 PM",
           "title": "Pickleball Open Play : Womens 3.75+ DUPR Optional",
@@ -1175,7 +1159,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-142",
+          "id": "thursday-23-140",
           "startTime": "6:00 PM",
           "endTime": "8:00 PM",
           "title": "Pickleball Open Play: 5.0+ DUPR Optional",
@@ -1183,23 +1167,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-143",
+          "id": "thursday-23-141",
           "startTime": "7:30 PM",
           "endTime": "9:30 PM",
-          "title": "Pickleball Open Play: 3.0-3.5 (80%+ Reliability Required) DUPR Optional",
-          "subtitle": "Skill Level: 3.0-",
+          "title": "Pickleball Open Play: 3.0+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.0+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-144",
-          "startTime": "8:00 PM",
-          "endTime": "9:30 PM",
-          "title": "Pickleball Open Play : NR/2.0-2.75 DUPR Optional",
-          "subtitle": "Skill Level: 2.0-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "thursday-16-145",
+          "id": "thursday-23-142",
           "startTime": "8:00 PM",
           "endTime": "10:00 PM",
           "title": "Pickleball Open Play : 2.75-3.25 DUPR Optional",
@@ -1207,7 +1183,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-146",
+          "id": "thursday-23-143",
           "startTime": "8:00 PM",
           "endTime": "10:00 PM",
           "title": "Pickleball Open Play : 4.5+ DUPR Optional",
@@ -1215,7 +1191,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-147",
+          "id": "thursday-23-144",
           "startTime": "8:00 PM",
           "endTime": "10:00 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional 80+ Reliability",
@@ -1223,7 +1199,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-148",
+          "id": "thursday-23-145",
+          "startTime": "9:30 PM",
+          "endTime": "11:30 PM",
+          "title": "Pickleball Open Play : 3.5+ DUPR Optional",
+          "subtitle": "Skill Level: 3.5+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "thursday-23-146",
           "startTime": "9:30 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -1231,7 +1215,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-149",
+          "id": "thursday-23-147",
           "startTime": "10:00 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play : 3.0+ DUPR Optional",
@@ -1239,7 +1223,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "thursday-16-150",
+          "id": "thursday-23-148",
           "startTime": "10:00 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: All Levels-DUPR Optional",
@@ -1247,15 +1231,15 @@
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "THURSDAY 16"
+      "header": "THURSDAY 23"
     },
     {
       "name": "FRIDAY",
-      "date": 17,
+      "date": 24,
       "highlight": false,
       "sessions": [
         {
-          "id": "friday-17-151",
+          "id": "friday-24-149",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: 3.0+ DUPR Optional",
@@ -1263,7 +1247,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-152",
+          "id": "friday-24-150",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -1271,7 +1255,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-153",
+          "id": "friday-24-151",
           "startTime": "6:30 AM",
           "endTime": "8:00 AM",
           "title": "Pickleball Open Play: All Levels DUPR Optional",
@@ -1279,23 +1263,15 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-154",
+          "id": "friday-24-152",
           "startTime": "8:00 AM",
-          "endTime": "9:30 AM",
+          "endTime": "9:00 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
           "subtitle": "Skill Level: All Levels",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-155",
-          "startTime": "8:00 AM",
-          "endTime": "9:30 AM",
-          "title": "Pickleball Open Play: All Levels DUPR Optional (4on/4off)",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-156",
+          "id": "friday-24-153",
           "startTime": "8:00 AM",
           "endTime": "9:30 AM",
           "title": "Pickleball Open Play: Womens 3.25+DUPR Optional",
@@ -1303,7 +1279,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-157",
+          "id": "friday-24-154",
           "startTime": "8:00 AM",
           "endTime": "10:00 AM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -1311,31 +1287,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-158",
-          "startTime": "9:30 AM",
-          "endTime": "11:30 AM",
-          "title": "Pickleball Open Play : 2.5-3.5 DUPR Optional",
-          "subtitle": "Skill Level: 2.5-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-159",
-          "startTime": "9:30 AM",
-          "endTime": "11:30 AM",
-          "title": "Pickleball Open Play : Women's All Levels Open Play",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-160",
-          "startTime": "9:30 AM",
-          "endTime": "11:30 AM",
-          "title": "Pickleball Open Play : Womens 2.5+ DUPR Optional",
-          "subtitle": "Skill Level: 2.5+",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-161",
+          "id": "friday-24-155",
           "startTime": "10:00 AM",
           "endTime": "11:30 AM",
           "title": "Pickleball Open Play: 3.5-4.25 DUPR Optional",
@@ -1343,7 +1295,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-162",
+          "id": "friday-24-156",
           "startTime": "11:30 AM",
           "endTime": "1:00 PM",
           "title": "Pickleball Open Play : 3.5-4.0 DUPR Optional",
@@ -1351,7 +1303,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-163",
+          "id": "friday-24-157",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play : 3.0+ DUPR Optional",
@@ -1359,7 +1311,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-164",
+          "id": "friday-24-158",
           "startTime": "11:30 AM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -1367,7 +1319,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-165",
+          "id": "friday-24-159",
           "startTime": "12:00 PM",
           "endTime": "1:30 PM",
           "title": "Pickleball Open Play: 4.75+ Drill Session: Bring Your Own Partner",
@@ -1375,7 +1327,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-166",
+          "id": "friday-24-160",
           "startTime": "1:00 PM",
           "endTime": "2:30 PM",
           "title": "Pickleball Open Play : All Levels",
@@ -1383,7 +1335,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-167",
+          "id": "friday-24-161",
           "startTime": "1:30 PM",
           "endTime": "3:00 PM",
           "title": "Pickleball Open Play: 2.75-3.25 DUPR Optional",
@@ -1391,7 +1343,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-168",
+          "id": "friday-24-162",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.25+ DUPR Optional",
@@ -1399,7 +1351,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-169",
+          "id": "friday-24-163",
           "startTime": "1:30 PM",
           "endTime": "3:30 PM",
           "title": "Pickleball Open Play: 4.75+ DUPR Optional",
@@ -1407,7 +1359,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-170",
+          "id": "friday-24-164",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play : All Levels DUPR Optional",
@@ -1415,7 +1367,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-171",
+          "id": "friday-24-165",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play: 3.75-4.25 (80%+ Reliability Score Required) DUPR Optional",
@@ -1423,7 +1375,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-172",
+          "id": "friday-24-166",
           "startTime": "3:30 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play: 4.25+ (80%+ Reliability Score Required) DUPR Optional",
@@ -1431,7 +1383,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-173",
+          "id": "friday-24-167",
           "startTime": "4:00 PM",
           "endTime": "5:30 PM",
           "title": "Pickleball Open Play : Womens All Levels DUPR Optional",
@@ -1439,7 +1391,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-174",
+          "id": "friday-24-168",
           "startTime": "4:30 PM",
           "endTime": "6:30 PM",
           "title": "Pickleball Open Play: 3.5-4.0 (80%+ Reliability Score Required) DUPR Optional",
@@ -1447,15 +1399,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-175",
-          "startTime": "5:30 PM",
-          "endTime": "7:30 PM",
-          "title": "Pickleball Open Play : 2.5-3.25 DUPR Optional",
-          "subtitle": "Skill Level: 2.5-",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-176",
+          "id": "friday-24-169",
           "startTime": "5:30 PM",
           "endTime": "7:30 PM",
           "title": "Pickleball Open Play : 4.75+ DUPR Optional",
@@ -1463,7 +1407,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-177",
+          "id": "friday-24-170",
           "startTime": "5:30 PM",
           "endTime": "7:30 PM",
           "title": "Pickleball Open Play: 3.0+ (80% Reliability Score) DUPR Optional",
@@ -1471,7 +1415,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-178",
+          "id": "friday-24-171",
           "startTime": "5:30 PM",
           "endTime": "7:30 PM",
           "title": "Pickleball Open Play: Womens 3.75+ (80% RELIABILITY)  DUPR Optional",
@@ -1479,7 +1423,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-179",
+          "id": "friday-24-172",
           "startTime": "6:30 PM",
           "endTime": "8:00 PM",
           "title": "Pickleball Open Play: 3.75-4.25 (80%+ Reliability Score Required) DUPR Optional",
@@ -1487,30 +1431,22 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-180",
+          "id": "friday-24-173",
           "startTime": "7:30 PM",
           "endTime": "9:30 PM",
-          "title": "Pickleball Open Play : 3.25-3.75 DUPR Optional",
-          "subtitle": "Skill Level: 3.25-",
+          "title": "Pickleball Open Play : 3.5+ DUPR Optional",
+          "subtitle": "Skill Level: 3.5+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-181",
-          "startTime": "7:30 PM",
-          "endTime": "9:30 PM",
-          "title": "Pickleball Open Play : All Levels Singles DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-182",
+          "id": "friday-24-174",
           "startTime": "7:30 PM",
           "endTime": "9:30 PM",
           "title": "Pickleball Open Play : Womens All Level DUPR Optional",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-183",
+          "id": "friday-24-175",
           "startTime": "7:30 PM",
           "endTime": "9:30 PM",
           "title": "Pickleball Open Play: 4.5+ DUPR Optional",
@@ -1518,23 +1454,23 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-184",
+          "id": "friday-24-176",
           "startTime": "8:00 PM",
-          "endTime": "9:30 PM",
-          "title": "Pickleball Open Play : All Levels DUPR Optional",
-          "subtitle": "Skill Level: All Levels",
-          "location": "Indoor Pickleball Courts"
-        },
-        {
-          "id": "friday-17-185",
-          "startTime": "9:30 PM",
-          "endTime": "11:30 PM",
+          "endTime": "10:00 PM",
           "title": "Pickleball Open Play: 3.25-4.0 DUPR Optional",
           "subtitle": "Skill Level: 3.25-",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-186",
+          "id": "friday-24-177",
+          "startTime": "9:30 PM",
+          "endTime": "11:30 PM",
+          "title": "Pickleball Open Play : 2.75+ DUPR Optional",
+          "subtitle": "Skill Level: 2.75+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "friday-24-178",
           "startTime": "9:30 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: 4.0+ DUPR Optional",
@@ -1542,7 +1478,7 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "friday-17-187",
+          "id": "friday-24-179",
           "startTime": "9:30 PM",
           "endTime": "11:30 PM",
           "title": "Pickleball Open Play: All Levels (4on4off) DUPR Optional",
@@ -1550,15 +1486,15 @@
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "FRIDAY 17"
+      "header": "FRIDAY 24"
     },
     {
       "name": "SATURDAY",
-      "date": 18,
+      "date": 25,
       "highlight": false,
       "sessions": [
         {
-          "id": "saturday-18-188",
+          "id": "saturday-25-180",
           "startTime": "7:00 AM",
           "endTime": "8:30 AM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
@@ -1566,15 +1502,239 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "saturday-18-189",
-          "startTime": "8:30 PM",
-          "endTime": "10:30 PM",
+          "id": "saturday-25-181",
+          "startTime": "8:30 AM",
+          "endTime": "10:00 AM",
+          "title": "Pickleball Open Play: 2.5-3.0 DUPR Optional",
+          "subtitle": "Skill Level: 2.5-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-182",
+          "startTime": "8:30 AM",
+          "endTime": "10:00 AM",
+          "title": "Pickleball Open Play: All Levels (4on/4off) DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-183",
+          "startTime": "8:30 AM",
+          "endTime": "10:30 AM",
+          "title": "Pickleball Open Play: 3.75-4.25 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.75-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-184",
+          "startTime": "8:30 AM",
+          "endTime": "10:30 AM",
+          "title": "Pickleball Open Play: NR/2.0-2.5 DUPR Optional",
+          "subtitle": "Skill Level: 2.0-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-185",
+          "startTime": "10:00 AM",
+          "endTime": "12:00 PM",
+          "title": "Pickleball Open Play: 4.25-4.75 DUPR Optional",
+          "subtitle": "Skill Level: 4.25-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-186",
+          "startTime": "10:00 AM",
+          "endTime": "12:00 PM",
+          "title": "Pickleball Open Play: 4.75+ DUPR Optional",
+          "subtitle": "Skill Level: 4.75+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-187",
+          "startTime": "10:30 AM",
+          "endTime": "12:00 PM",
+          "title": "Pickleball Open Play: All Levels (4on/4off) DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-188",
+          "startTime": "10:30 AM",
+          "endTime": "12:00 PM",
+          "title": "Pickleball Open Play: Womens All Levels DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-189",
+          "startTime": "12:00 PM",
+          "endTime": "2:00 PM",
+          "title": "Pickleball Open Play : 5.0+ DUPR Optional",
+          "subtitle": "Skill Level: 5.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-190",
+          "startTime": "12:00 PM",
+          "endTime": "2:00 PM",
+          "title": "Pickleball Open Play: 3.0-3.5 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.0-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-191",
+          "startTime": "12:00 PM",
+          "endTime": "2:00 PM",
+          "title": "Pickleball Open Play: 3.5-4.0 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.5-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-192",
+          "startTime": "12:00 PM",
+          "endTime": "2:00 PM",
+          "title": "Pickleball Open Play: 4.0-4.5 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 4.0-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-193",
+          "startTime": "12:00 PM",
+          "endTime": "2:00 PM",
+          "title": "Pickleball Open Play: 4.5+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 4.5+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-194",
+          "startTime": "2:00 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play: Singles (1v1) 4.5+DUPR Optional",
+          "subtitle": "Skill Level: 4.5+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-195",
+          "startTime": "2:00 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play: Singles(1v1) 3.5-4.0 DUPR Mandatory: Club Submit",
+          "subtitle": "Skill Level: 3.5-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-196",
+          "startTime": "2:00 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play: Singles(1v1) 4.0+ DUPR Mandatory: Club Submit",
+          "subtitle": "Skill Level: 4.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-197",
+          "startTime": "2:00 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play: Singles(1v1) All Levels DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-198",
+          "startTime": "2:00 PM",
+          "endTime": "3:30 PM",
+          "title": "Pickleball Open Play: Singles(1v1) NR-3.5 DUPR Mandatory: Club Submit",
+          "subtitle": "Skill Level: 3.5",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-199",
+          "startTime": "3:30 PM",
+          "endTime": "5:00 PM",
+          "title": "Pickleball Open Play: 2.5-3.25 DUPR Optional",
+          "subtitle": "Skill Level: 2.5-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-200",
+          "startTime": "3:30 PM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play: 3.5-4.0 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.5-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-201",
+          "startTime": "3:30 PM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play: 3.75-4.25 (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 3.75-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-202",
+          "startTime": "3:30 PM",
+          "endTime": "5:30 PM",
+          "title": "Pickleball Open Play: 4.25+ (80%+ Reliability Required) DUPR Optional",
+          "subtitle": "Skill Level: 4.25+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-203",
+          "startTime": "5:00 PM",
+          "endTime": "7:00 PM",
+          "title": "Pickleball Open Play: All Levels (4on/4off) DUPR Optional",
+          "subtitle": "Skill Level: All Levels",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-204",
+          "startTime": "5:30 PM",
+          "endTime": "7:30 PM",
+          "title": "Pickleball Open Play: 3.25-3.75 DUPR Optional",
+          "subtitle": "Skill Level: 3.25-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-205",
+          "startTime": "5:30 PM",
+          "endTime": "7:30 PM",
+          "title": "Pickleball Open Play: 3.75-4.25 DUPR Optional",
+          "subtitle": "Skill Level: 3.75-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-206",
+          "startTime": "5:30 PM",
+          "endTime": "7:30 PM",
+          "title": "Pickleball Open Play: 4.0+ DUPR Optional",
+          "subtitle": "Skill Level: 4.0+",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-207",
+          "startTime": "7:00 PM",
+          "endTime": "9:00 PM",
+          "title": "Pickleball Open Play: NR/2.0-2.75 DUPR Optional",
+          "subtitle": "Skill Level: 2.0-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-208",
+          "startTime": "7:30 PM",
+          "endTime": "9:00 PM",
+          "title": "Pickleball Open Play: 2.75-3.25 DUPR Optional",
+          "subtitle": "Skill Level: 2.75-",
+          "location": "Indoor Pickleball Courts"
+        },
+        {
+          "id": "saturday-25-209",
+          "startTime": "8:00 PM",
+          "endTime": "10:00 PM",
           "title": "Pickleball Open Play: 3.25+ DUPR Optional",
           "subtitle": "Skill Level: 3.25+",
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "saturday-18-190",
+          "id": "saturday-25-210",
           "startTime": "8:30 PM",
           "endTime": "10:30 PM",
           "title": "Pickleball Open Play: All Levels (4on/4off) DUPR Optional",
@@ -1582,21 +1742,21 @@
           "location": "Indoor Pickleball Courts"
         },
         {
-          "id": "saturday-18-191",
-          "startTime": "8:30 PM",
+          "id": "saturday-25-211",
+          "startTime": "9:00 PM",
           "endTime": "10:30 PM",
           "title": "Pickleball Open Play: All Levels Drill Session: Bring Your Own Partner",
           "subtitle": "Skill Level: All Levels",
           "location": "Indoor Pickleball Courts"
         }
       ],
-      "header": "SATURDAY 18"
+      "header": "SATURDAY 25"
     }
   ],
   "_source": "github-actions-scraper",
   "_debug": {
-    "serverTime": "2025-10-05T05:14:29.378Z",
-    "calculatedNextSunday": "2025-10-12T05:14:29.378Z",
+    "serverTime": "2025-10-12T05:15:18.890Z",
+    "calculatedNextSunday": "2025-10-19T05:15:18.890Z",
     "daysUntilNextSunday": 7
   }
 }
